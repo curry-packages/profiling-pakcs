@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE primitives SYSTEM "http://www.informatik.uni-kiel.de/~pakcs/primitives.dtd">
+<primitives>
+ <primitive name="profileReset" arity="0">
+  <library>prim_profileprologdata</library>
+  <entry>prim_profileReset</entry>
+ </primitive>
+ <primitive name="prim_profilePredicates" arity="1">
+  <library>prim_profileprologdata</library>
+  <entry>prim_profilePredicates</entry>
+ </primitive>
+ <primitive name="prim_profileClauses" arity="2">
+  <library>prim_profileprologdata</library>
+  <entry>prim_profileClauses</entry>
+ </primitive>
+ <primitive name="profileView" arity="0">
+  <library>prim_profileprologdata</library>
+  <entry>prim_profileView</entry>
+ </primitive>
+ <primitive name="printProfileData" arity="0">
+  <library>prim_profileprologdata</library>
+  <entry>prim_printProfileData</entry>
+ </primitive>
+ <primitive name="getHnfDefinitions" arity="0">
+  <library>prim_profileprologdata</library>
+  <entry>prim_getHnfDefinitions</entry>
+ </primitive>
+</primitives>
