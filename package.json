@@ -4,10 +4,11 @@
     "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
     "synopsis": "Library to access profile data of the back-end Prolog system of PAKCS",
     "category": [ "Debugging" ],
-    "dependencies": { },
+    "dependencies": {
+        "base" : ">= 1.1.0, < 2.0.0"
+    },
     "exportedModules": [ "Debug.Profile.PrologData" ],
     "compilerCompatibility": {
-        "base" : ">= 1.1.0, < 2.0.0",
         "pakcs": ">= 2.2.1, <= 3.0.0"
     },
     "license": "BSD-3-Clause",
